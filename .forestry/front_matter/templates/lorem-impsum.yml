@@ -2,6 +2,11 @@
 label: Funding
 hide_body: true
 fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
 - name: region
   type: text
   config:
@@ -26,5 +31,10 @@ fields:
   type: tag_list
   default: []
   label: Type
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 pages:
 - content/lorem-impsum.md
