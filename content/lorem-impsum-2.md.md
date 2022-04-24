@@ -1,5 +1,4 @@
 +++
-draft = true
 image = "/uploads/screenshot-2022-04-24-at-10-48-52.png"
 name = "Lorem Impsum Funding"
 region = "Berlin"
