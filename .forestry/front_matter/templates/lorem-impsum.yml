@@ -46,4 +46,5 @@ fields:
     maxSize: 64
   label: Image
 pages:
+- content/lorem-impsum-2.md.md
 - content/lorem-impsum.md
