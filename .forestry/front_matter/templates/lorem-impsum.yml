@@ -22,10 +22,10 @@ fields:
     required: false
   label: Region
   hidden: false
-- name: sport
+- name: sports
   type: tag_list
   default: []
-  label: Sport
+  label: Sports
 - name: volume
   type: number
   label: Volume
