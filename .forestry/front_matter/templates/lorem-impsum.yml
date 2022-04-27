@@ -50,6 +50,16 @@ fields:
   config:
     required: false
   label: URL
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Phone
+- name: mail
+  type: text
+  config:
+    required: false
+  label: Mail
 pages:
 - content/lorem-impsum-2.md.md
 - content/lorem-impsum.md
