@@ -10,6 +10,6 @@ text = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 title = "lorem-impsum-2.md"
 type = ["Ausrüstung", "Beratung"]
 url = "https://klubtalent.org"
-volume = 10000
+volume = 20000
 
 +++
