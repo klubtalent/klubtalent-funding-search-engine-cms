@@ -92,5 +92,6 @@ fields:
     label: Mail
   label: Contact
 pages:
+- content/eliteschulen-des-sports.md
 - content/lorem-impsum-2.md.md
 - content/lorem-impsum.md
