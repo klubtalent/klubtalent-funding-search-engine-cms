@@ -36,10 +36,10 @@ fields:
     min: 
     max: 
     step: 
-- name: type
+- name: types
   type: tag_list
   default: []
-  label: Type
+  label: Types
 - name: image
   type: file
   config:
