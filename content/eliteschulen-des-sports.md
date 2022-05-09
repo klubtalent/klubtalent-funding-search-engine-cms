@@ -1,6 +1,5 @@
 +++
 category = "Bildung"
-draft = true
 image = "/uploads/lsb_logo.png"
 name = "Eliteschulen des Sports"
 region = "Berlin"
