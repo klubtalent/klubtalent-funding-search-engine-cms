@@ -27,7 +27,16 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - Bildung
+    - Integration und Teilhabe
+    - Internationales
+    - Leistungssport
+    - Personalförderung
+    - Rahmenvereinbarungen
+    - Sachmittel
+    - Schule und Kita
+    - Vereins- und Verbandsförderungen
     source:
       type: simple
       section: 
