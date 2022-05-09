@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Name
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 - name: text
   type: textarea
   default: ''
@@ -61,31 +66,31 @@ fields:
   type: tag_list
   default: []
   label: Types
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-- name: contact_person
-  type: text
-  config:
-    required: false
-  label: Contact Person
-- name: url
-  type: text
-  config:
-    required: false
-  label: URL
-- name: phone
-  type: text
-  config:
-    required: false
-  label: Phone
-- name: mail
-  type: text
-  config:
-    required: false
-  label: Mail
+- name: contact
+  type: field_group
+  config: {}
+  fields:
+  - name: contact_person
+    type: text
+    config:
+      required: false
+    label: Contact Person
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  - name: phone
+    type: text
+    config:
+      required: false
+    label: Phone
+  - name: mail
+    type: text
+    config:
+      required: false
+    label: Mail
+  label: Contact
 pages:
 - content/lorem-impsum-2.md.md
 - content/lorem-impsum.md
