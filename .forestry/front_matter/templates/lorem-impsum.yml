@@ -22,11 +22,18 @@ fields:
     required: false
   label: Region
   hidden: false
-- name: kategorie
-  type: text
+- name: category
+  type: select
+  default: []
   config:
     required: false
-  label: Kategorie
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
 - name: sports
   type: tag_list
   default: []
@@ -50,6 +57,11 @@ fields:
   config:
     maxSize: 64
   label: Image
+- name: contact_person
+  type: text
+  config:
+    required: false
+  label: Contact Person
 - name: url
   type: text
   config:
