@@ -47,6 +47,9 @@ class ContentTransformer:
                         else:
                             values[key] = value
 
+                    # Add ID based on file name
+                    values["id"] = file_base_name
+
                 # Write json file
                 with open(os.path.join(results_path, f"{file_base_name}.json"), 'w') as json_file:
                     json.dump(values, json_file)
