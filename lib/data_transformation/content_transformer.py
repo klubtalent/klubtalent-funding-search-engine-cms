@@ -42,7 +42,7 @@ class ContentTransformer:
                         value = line.split("=")[1].strip().replace("\"", "").replace("'", "")
                         value = str(value)
 
-                        if key == "sports" or key == "type":
+                        if key == "sports" or key == "types":
                             values[key] = value.replace("[", "").replace("]", "").split(",")
                         else:
                             values[key] = value
