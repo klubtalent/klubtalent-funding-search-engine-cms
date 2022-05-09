@@ -22,6 +22,11 @@ fields:
     required: false
   label: Region
   hidden: false
+- name: kategorie
+  type: text
+  config:
+    required: false
+  label: Kategorie
 - name: sports
   type: tag_list
   default: []
