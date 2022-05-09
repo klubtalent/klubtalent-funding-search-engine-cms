@@ -1,0 +1,32 @@
+name: Upload content
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+      - name: Prepare Firebase token
+        id: prepare-firebase-token
+        run: echo $FIREBASE_TOKEN | base64 --decode > ./lib/data_upload/klubtalent-5da84-firebase-adminsdk-dgd6r-54031355fe.json
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        id: install-dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+          pip install tqdm
+          pip install firebase-admin
+      - name: Run main script
+        id: run-main-script
+        run: |
+          python main.py
