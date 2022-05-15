@@ -1,5 +1,6 @@
 name: Upload content
 on:
+  workflow_dispatch:
   push:
 jobs:
   build:
