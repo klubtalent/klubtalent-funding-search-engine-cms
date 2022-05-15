@@ -28,7 +28,6 @@ jobs:
         id: run-main-script
         run: |
           python main_crawl.py --clean
-            - name: Commit changes
       - name: Commit changes
         id: commit-changes
         uses: stefanzweifel/git-auto-commit-action@v4
