@@ -152,10 +152,10 @@ def generate_content(logger, results_path, funding):
     values = {}
     values_contact = {}
 
-    if os.path.exists(file_path):
+    sports = []
+    types = []
 
-        sports = []
-        types = []
+    if os.path.exists(file_path):
 
         # Read existing file
         with open(file_path, 'r') as file:
@@ -179,76 +179,76 @@ def generate_content(logger, results_path, funding):
                     else:
                         values[key] = value
 
-        # Update values
-        if len(funding.image) > 0:
-            values["image"] = funding.image
-        if len(funding.name) > 0:
-            values["name"] = funding.name
-        if len(funding.subject) > 0:
-            values["subject"] = funding.subject
-        if len(funding.target) > 0:
-            values["target"] = funding.target
-        if len(funding.hints) > 0:
-            values["hints"] = funding.hints
-        if len(funding.equity) > 0:
-            values["equity"] = funding.equity
-        if len(funding.financing) > 0:
-            values["financing"] = funding.financing
-        if len(funding.deadline) > 0:
-            values["deadline"] = funding.deadline
-        if len(funding.region) > 0:
-            values["region"] = funding.region
-        if len(funding.category) > 0:
-            values["category"] = funding.category.title().replace("Und", "und").replace("Des", "des")
+    # Update values
+    if len(funding.image) > 0:
+        values["image"] = funding.image
+    if len(funding.name) > 0:
+        values["name"] = funding.name
+    if len(funding.subject) > 0:
+        values["subject"] = funding.subject
+    if len(funding.target) > 0:
+        values["target"] = funding.target
+    if len(funding.hints) > 0:
+        values["hints"] = funding.hints
+    if len(funding.equity) > 0:
+        values["equity"] = funding.equity
+    if len(funding.financing) > 0:
+        values["financing"] = funding.financing
+    if len(funding.deadline) > 0:
+        values["deadline"] = funding.deadline
+    if len(funding.region) > 0:
+        values["region"] = funding.region
+    if len(funding.category) > 0:
+        values["category"] = funding.category.title().replace("Und", "und").replace("Des", "des")
 
-        if len(funding.sports) > 0:
-            for s in funding.sports:
-                sports.append(s)
-                sports = list(dict.fromkeys(sports))
-        if len(funding.types) > 0:
-            for t in funding.types:
-                types.append(t)
-                types = list(dict.fromkeys(types))
+    if len(funding.sports) > 0:
+        for s in funding.sports:
+            sports.append(s)
+            sports = list(dict.fromkeys(sports))
+    if len(funding.types) > 0:
+        for t in funding.types:
+            types.append(t)
+            types = list(dict.fromkeys(types))
 
-        if len(funding.contact_person) > 0:
-            values_contact["contact_person"] = funding.contact_person
-        if len(funding.url) > 0:
-            values_contact["url"] = funding.url
-        if len(funding.phone) > 0:
-            values_contact["phone"] = funding.phone
-        if len(funding.mail) > 0:
-            values_contact["mail"] = funding.mail
+    if len(funding.contact_person) > 0:
+        values_contact["contact_person"] = funding.contact_person
+    if len(funding.url) > 0:
+        values_contact["url"] = funding.url
+    if len(funding.phone) > 0:
+        values_contact["phone"] = funding.phone
+    if len(funding.mail) > 0:
+        values_contact["mail"] = funding.mail
 
-        # Assemble content
-        content = "+++"
-        for key, value in values.items():
-            content += f"\n{key} = \"{value}\""
+    # Assemble content
+    content = "+++"
+    for key, value in values.items():
+        content += f"\n{key} = \"{value}\""
 
-        content += f"\nsports = ["
-        for s in sports:
-            if len(s) > 0:
-                content += f"\"{s.replace('_', ' ')}\","
-        content += "]"
+    content += f"\nsports = ["
+    for s in sports:
+        if len(s) > 0:
+            content += f"\"{s.replace('_', ' ')}\","
+    content += "]"
 
-        content += f"\ntypes = ["
-        for t in types:
-            if len(t) > 0:
-                content += f"\"{t.replace('_', ' ')}\","
-        content += "]"
+    content += f"\ntypes = ["
+    for t in types:
+        if len(t) > 0:
+            content += f"\"{t.replace('_', ' ')}\","
+    content += "]"
 
-        content += f"\nupdated = \"{funding.updated}\""
+    content += f"\nupdated = \"{funding.updated}\""
 
-        content += "\n[contact]"
-        for key, value in values_contact.items():
-            content += f"\n{key} = \"{value}\""
-        content += "\n+++"
+    content += "\n[contact]"
+    for key, value in values_contact.items():
+        content += f"\n{key} = \"{value}\""
+    content += "\n+++"
 
-        # Clean up
-        content = content.replace(",]", "]")
+    # Clean up
+    content = content.replace(",]", "]")
 
-        with open(file_path, 'w') as file:
-            logger.log_line(f"✓ Generate {file_name}")
-            file.write(content)
+    with open(file_path, 'w') as file:
+        logger.log_line(f"✓ Generate {file_name}")
+        file.write(content)
 
 
 def extract_sports(subject, financing):
