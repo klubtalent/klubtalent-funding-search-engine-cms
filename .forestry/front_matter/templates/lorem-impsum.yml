@@ -26,6 +26,26 @@ fields:
   config:
     required: false
   label: Target
+- name: hints
+  type: text
+  config:
+    required: false
+  label: Hints
+- name: equity
+  type: text
+  config:
+    required: false
+  label: Equity
+- name: financing
+  type: text
+  config:
+    required: false
+  label: Financing
+- name: deadline
+  type: text
+  config:
+    required: false
+  label: Deadline
 - name: region
   type: text
   config:
