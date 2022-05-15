@@ -226,7 +226,10 @@ def generate_content(logger, results_path, funding):
     # Assemble content
     content = "+++"
     for key, value in values.items():
-        content += f"\n{key} = \"{value}\""
+        if key is "volume":
+            content += f"\n{key} = {value}"
+        else:
+            content += f"\n{key} = \"{value}\""
 
     content += f"\nsports = ["
     for s in sports:
@@ -242,10 +245,7 @@ def generate_content(logger, results_path, funding):
 
     content += "\n[contact]"
     for key, value in values_contact.items():
-        if key is "volume":
-            content += f"\n{key} = {value}"
-        else:
-            content += f"\n{key} = \"{value}\""
+        content += f"\n{key} = \"{value}\""
     content += "\n+++"
 
     # Clean up
