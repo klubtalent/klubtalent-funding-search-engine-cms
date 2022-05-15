@@ -200,10 +200,10 @@ def generate_content(logger, results_path, funding):
         values["region"] = funding.region
     if len(funding.category) > 0:
         values["category"] = funding.category.title().replace("Und", "und").replace("Des", "des")
-    if funding.volume > 0:
-        values["volume"] = funding.volume
     if len(funding.updated) > 0:
         values["updated"] = funding.updated
+
+    values["volume"] = funding.volume
 
     if len(funding.sports) > 0:
         for s in funding.sports:
