@@ -8,9 +8,9 @@ equity = "Eine Einsatzstelle beteiligt sich zzt. mit monatlich 400,- €/Teilneh
 deadline = "Die Bewerbungsphase wird im Januar des Jahres eröffnet.Start ist in der Regel im Zeitraum 01.08. - 01.10. des Jahres."
 region = "Berlin"
 category = "Leistungssport"
+updated = "15-05-2022"
 sports = []
 types = ["Betreuung","Kindersport","Jugendsport","Kinderarbeit","Jugendarbeit"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Iris Jensen"
 phone = "+493030002194"

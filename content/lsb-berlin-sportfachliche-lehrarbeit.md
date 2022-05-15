@@ -9,9 +9,9 @@ financing = "Es ist eine kombinierte Festbetrags-/Fehlbedarfsfinanzierung. Die Z
 deadline = "Bis 31. Januar des laufenden Jahres, mind. 6 Wochen vor Lehrgangsbeginn; bei Lehrgängenund Seminaren, die für Januar oder Februar geplant sind, gilt der 31. Oktober des Vorjahres;Die Abrechnungsunterlagen sind bis 4 Wochen nach Veranstaltungsende einzureichen."
 region = "Berlin"
 category = "Leistungssport"
+updated = "15-05-2022"
 sports = []
 types = ["Lehrgänge","Jugendbildung"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Ronald Friedeman"
 phone = "+493030007143"

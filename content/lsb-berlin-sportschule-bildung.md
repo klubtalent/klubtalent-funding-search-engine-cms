@@ -9,9 +9,9 @@ financing = "Die Qualifizierungsmaßnahmen sind mit Gebühren belegt, die allerd
 deadline = "Die Qualifizierungsmaßnahmen erfordern eine Anmeldung. Anmeldefristen finden sich im Bil-"
 region = "Berlin"
 category = "Bildung"
+updated = "15-05-2022"
 sports = []
 types = ["Qualifizierungsmaßnahmen"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Serviceline der Sportschule"
 +++

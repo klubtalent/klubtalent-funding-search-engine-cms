@@ -9,9 +9,9 @@ financing = "Bis zu 5.500,- € für eine Gruppe von 20 Kindern"
 deadline = "Wird jährlich bekannt gegeben"
 region = "Berlin"
 category = "Bildung"
+updated = "15-05-2022"
 sports = []
 types = ["Betreuung"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Evelyn Bahn"
 phone = "+493030002193"

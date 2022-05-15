@@ -9,8 +9,8 @@ financing = "Pro Maßnahme können max. 3.000 € beantragt werden.Die maximale 
 deadline = "fortlaufend"
 region = "Berlin"
 category = "Bildung"
+updated = "15-05-2022"
 sports = []
 types = ["niedrigschwellige Angebote","Integrationsarbeit"]
-updated = "15-05-2022"
 [contact]
 +++

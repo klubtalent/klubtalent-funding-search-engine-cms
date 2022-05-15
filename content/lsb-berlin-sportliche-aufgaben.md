@@ -7,9 +7,9 @@ hints = "Gefördert werden nur die sportförderungswürdigen Mitglieder der Verb
 financing = "Institutionelle Festbetragsfinanzierung"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = []
-updated = "15-05-2022"
 [contact]
 contact_person = "Jens Krüger"
 mail = "j.krueger@lsb-berlin.de"

@@ -6,9 +6,9 @@ target = "Der LSB fördert Spitzensportler/-innen durch den Abschluss von Berate
 hints = "Gefördert werden Spitzensportler/-innen, die für einen Berliner Verein das Startrecht haben."
 region = "Berlin"
 category = "Leistungssport"
+updated = "15-05-2022"
 sports = []
 types = []
-updated = "15-05-2022"
 [contact]
 contact_person = "Frank Schlizio"
 phone = "+493030002180"

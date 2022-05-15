@@ -9,9 +9,9 @@ financing = "Es handelt sich bei der Förderung um eine anteilige Fehlbedarfsfin
 deadline = "keine"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = ["Coaching"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Monika Heukäufer"
 phone = "+493030002–100"

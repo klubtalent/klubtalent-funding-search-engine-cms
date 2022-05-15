@@ -9,9 +9,9 @@ financing = "Mittel der Senatsverwaltung über den Landesjugendring als Zentrals
 deadline = "Formloser Antrag auf Vereins- oder Verbandskopfbogen (mit o.a. Angaben) und zwei rechts-verbindliche Unterschriften vom Vorstand (einschl. Jugendleitung) bis spätestens sechsWochen vor der Maßnahme einreichen."
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = ["Kindersport","Jugendsport","Kinderarbeit","Jugendarbeit","außersportliche Angebote"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Dana Schwichtenberg"
 phone = "+493030002172"

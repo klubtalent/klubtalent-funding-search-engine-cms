@@ -9,9 +9,9 @@ financing = "Festbetragsfinanzierung30,- €/60 Minuten (1 TE) (Übungsleiter/-i
 deadline = "Es gibt keine Antragsfrist(en)"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = ["Schulsport"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Janine Gegusch | Referatsleiterin BERLIN HAT TALENTTel.: (030) 30 002 - 154 | E-Mail: : j.gegusch@lsb-berlin.deOlga Fritzler | Koordinatorin BFG BERLIN HAT TALENTTel.: (030) 30 002 - 130 | E-Mail: : o.fritzler@lsb-berlin.de"
 +++

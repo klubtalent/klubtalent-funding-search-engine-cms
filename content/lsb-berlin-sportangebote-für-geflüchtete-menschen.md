@@ -6,8 +6,8 @@ target = "Alle förderungswürdigen Mitgliedsorganisationen des Landesssportbund
 deadline = "Anträge können ganzjährig gestellt werden. Aufgrund der begrenzt zur Verfügung stehendenFördermittel empfiehlt es sich jedoch, diese zu Beginn des Kalenderjahres einzureichen."
 region = "Berlin"
 category = "Bildung"
+updated = "15-05-2022"
 sports = []
 types = ["niedrigschwellige Angebote"]
-updated = "15-05-2022"
 [contact]
 +++

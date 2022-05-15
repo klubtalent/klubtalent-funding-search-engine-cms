@@ -7,9 +7,9 @@ hints = "Grundlage des Versicherungsschutzes ist die vollständige Meldung der M
 financing = "Der Landessportbund zahlt die Prämie auf Grundlage des Rahmenvertrages."
 region = "Berlin"
 category = "Rahmenvereinbarungen"
+updated = "15-05-2022"
 sports = []
 types = ["Versicherung"]
-updated = "15-05-2022"
 [contact]
 contact_person = "defendo Assekuranzmakler GmbH, Ackerstraße 29, 10115 Berlin"
 phone = "+4930374429614"

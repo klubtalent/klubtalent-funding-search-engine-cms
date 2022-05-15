@@ -9,9 +9,9 @@ financing = "Es handelt sich um eine Anteilsfinanzierung"
 deadline = "Antragstellung zum 15.12. des Vorjahres"
 region = "Berlin"
 category = "Leistungssport"
+updated = "15-05-2022"
 sports = []
 types = ["Personalkosten"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Frank Schlizio"
 phone = "+493030002180"

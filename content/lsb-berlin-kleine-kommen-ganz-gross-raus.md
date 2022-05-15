@@ -8,9 +8,9 @@ financing = "Zwei Jahre Anschubfinanzierung für ein regelmäßiges Bewegungsang
 deadline = "Mindestens 4 Wochen vor Beginn der Maßnahme beantragen"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = ["Vorschulsport"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Evelyn Bahn"
 phone = "+493030002193"

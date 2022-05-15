@@ -7,9 +7,9 @@ hints = "festangestellte Trainer/-innen mit mindestens 20 Wochenstunden,"
 financing = "Fehlbedarfsfinanzierung"
 region = "Berlin"
 category = "Leistungssport"
+updated = "15-05-2022"
 sports = []
 types = ["Kindersport","Jugendsport"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Susanne Lucke"
 phone = "+4930002126"

@@ -8,9 +8,9 @@ equity = "Die Komplettkosten für unser Sport-Mobil betragen bei Veranstaltungen
 deadline = "6-9 Monate vor der Veranstaltung"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = ["Breitensport"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Detlef Huemke"
 mail = "d.huemke@lsb-berlin.de"

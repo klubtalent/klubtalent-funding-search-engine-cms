@@ -8,9 +8,9 @@ equity = "Kosten entstehen bei Internatsunterbringung und Beteiligung an der Ess
 financing = "Gefördert durch die Senatsverwaltung für Bildung, Jugend und Familie"
 region = "Berlin"
 category = "Bildung"
+updated = "15-05-2022"
 sports = []
 types = ["duale Förderung"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Reinfried Kugel"
 phone = "+493030002178"

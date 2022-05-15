@@ -9,9 +9,9 @@ financing = "Institutionelle Festbetragsfinanzierung"
 deadline = "Oktober des Vorjahres bei der Senatsverwaltung für Inneres und Sport"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = []
 types = ["Veranstaltungen","Personalkosten","Hauptamt","Frauen","Ehrenamt","Generationensport","Familiensport","Netzwerkarbeit","Outdoorsport","Trendsportarten","Kooperationen","Betrieb"]
-updated = "15-05-2022"
 [contact]
 contact_person = "Jens Krüger"
 phone = "+493030002117"

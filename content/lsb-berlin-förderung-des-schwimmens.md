@@ -9,9 +9,9 @@ financing = "Die Kosten für Übungsleiter/-innen, Assistenzkräfte, Verwaltungs
 deadline = "Wird jährlich bekannt gegeben"
 region = "Berlin"
 category = "Schule und Kita"
+updated = "15-05-2022"
 sports = ["Schwimmen"]
 types = []
-updated = "15-05-2022"
 [contact]
 contact_person = "Carola Huemke"
 phone = "+493030002190"
