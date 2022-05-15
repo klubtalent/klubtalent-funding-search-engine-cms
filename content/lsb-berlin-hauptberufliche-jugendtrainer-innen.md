@@ -8,6 +8,7 @@ financing = "Fehlbedarfsfinanzierung"
 region = "Berlin"
 category = "Leistungssport"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Kindersport","Jugendsport"]
 [contact]

@@ -10,6 +10,7 @@ deadline = "Bis 31. Januar des laufenden Jahres, mind. 6 Wochen vor Lehrgangsbeg
 region = "Berlin"
 category = "Leistungssport"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Lehrgänge","Jugendbildung"]
 [contact]

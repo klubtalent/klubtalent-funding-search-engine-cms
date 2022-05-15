@@ -8,6 +8,7 @@ financing = "Der Landessportbund zahlt die Prämie auf Grundlage des Rahmenvertr
 region = "Berlin"
 category = "Rahmenvereinbarungen"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Versicherung"]
 [contact]

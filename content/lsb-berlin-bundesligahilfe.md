@@ -10,6 +10,7 @@ deadline = "Formblatt: bis zum 31.01. des JahresAntrag: mindestens 4 Wochen vor 
 region = "Berlin"
 category = "Leistungssport"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = []
 [contact]

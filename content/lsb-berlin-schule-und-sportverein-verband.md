@@ -10,6 +10,7 @@ deadline = "Anträge sind auf Vordruck mit rechtsgültiger Unterschrift des Vere
 region = "Berlin"
 category = "Schule und Kita"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Kooperationen"]
 [contact]

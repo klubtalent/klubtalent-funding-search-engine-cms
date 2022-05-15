@@ -10,6 +10,7 @@ deadline = "Formloser Antrag auf Vereins- oder Verbandskopfbogen (mit o.a. Angab
 region = "Berlin"
 category = "Schule und Kita"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Kindersport","Jugendsport","Kinderarbeit","Jugendarbeit","außersportliche Angebote"]
 [contact]

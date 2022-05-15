@@ -7,6 +7,7 @@ deadline = "Anträge können ganzjährig gestellt werden. Aufgrund der begrenzt 
 region = "Berlin"
 category = "Bildung"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["niedrigschwellige Angebote"]
 [contact]

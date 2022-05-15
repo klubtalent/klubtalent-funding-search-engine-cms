@@ -8,6 +8,7 @@ financing = "Institutionelle Festbetragsfinanzierung"
 region = "Berlin"
 category = "Schule und Kita"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = []
 [contact]

@@ -10,6 +10,7 @@ deadline = "Die Anmeldung des Vorhabens erfolgt erst über den Fachverband, dann
 region = "Berlin"
 category = "Förderprogramme des Organisierten Sports"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Sportanlagen"]
 [contact]

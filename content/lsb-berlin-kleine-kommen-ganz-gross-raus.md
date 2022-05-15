@@ -9,6 +9,7 @@ deadline = "Mindestens 4 Wochen vor Beginn der Maßnahme beantragen"
 region = "Berlin"
 category = "Schule und Kita"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Vorschulsport"]
 [contact]

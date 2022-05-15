@@ -9,6 +9,7 @@ deadline = "Antragstermin ist der 15.12. des VorjahresBei Anträgen für Einzelm
 region = "Berlin"
 category = "Leistungssport"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Leistungssport","Trainingslager","Lehrgänge","Wettkämpfe"]
 [contact]

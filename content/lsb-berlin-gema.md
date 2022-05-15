@@ -6,6 +6,7 @@ target = "Alle Berliner Sportvereine, die mittelbar Mitglied im LSB sind."
 region = "Berlin"
 category = "Rahmenvereinbarungen"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["GEMA-Beiträge"]
 [contact]

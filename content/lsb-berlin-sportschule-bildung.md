@@ -10,6 +10,7 @@ deadline = "Die Qualifizierungsmaßnahmen erfordern eine Anmeldung. Anmeldefrist
 region = "Berlin"
 category = "Bildung"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Qualifizierungsmaßnahmen"]
 [contact]

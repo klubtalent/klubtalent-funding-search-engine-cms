@@ -10,6 +10,7 @@ deadline = "Antragstellung zum 15.12. des Vorjahres"
 region = "Berlin"
 category = "Leistungssport"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Personalkosten"]
 [contact]

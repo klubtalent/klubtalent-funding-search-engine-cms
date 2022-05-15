@@ -9,6 +9,7 @@ deadline = "Einreichen einer Interessensbekundung bis 15. Dezember des Vorjahrs 
 region = "Berlin"
 category = "Bildung"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Personalkosten"]
 [contact]

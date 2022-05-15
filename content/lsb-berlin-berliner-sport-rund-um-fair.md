@@ -10,6 +10,7 @@ deadline = "Die Antragsstellung muss mindestens 1 Woche vor Beginn der Maßnahme
 region = "Berlin"
 category = "Förderprogramme des Organisierten Sports"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Sportartikel","Sportbekleidung","Nachhaltigkeit"]
 [contact]

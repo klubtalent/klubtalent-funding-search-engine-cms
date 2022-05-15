@@ -10,6 +10,7 @@ deadline = "Oktober des Vorjahres bei der Senatsverwaltung für Inneres und Spor
 region = "Berlin"
 category = "Schule und Kita"
 updated = "15-05-2022"
+volume = "0"
 sports = []
 types = ["Veranstaltungen","Personalkosten","Hauptamt","Frauen","Ehrenamt","Generationensport","Familiensport","Netzwerkarbeit","Outdoorsport","Trendsportarten","Kooperationen","Betrieb"]
 [contact]

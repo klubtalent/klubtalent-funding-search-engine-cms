@@ -9,6 +9,7 @@ financing = "Gefördert durch die Senatsverwaltung für Bildung, Jugend und Fami
 region = "Berlin"
 category = "Bildung"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["duale Förderung"]
 [contact]

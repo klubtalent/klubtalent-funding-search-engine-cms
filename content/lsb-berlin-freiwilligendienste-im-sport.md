@@ -9,6 +9,7 @@ deadline = "Die Bewerbungsphase wird im Januar des Jahres eröffnet.Start ist in
 region = "Berlin"
 category = "Leistungssport"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Betreuung","Kindersport","Jugendsport","Kinderarbeit","Jugendarbeit"]
 [contact]

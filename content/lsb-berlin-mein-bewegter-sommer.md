@@ -10,6 +10,7 @@ deadline = "Wird jährlich bekannt gegeben"
 region = "Berlin"
 category = "Bildung"
 updated = "15-05-2022"
+volume = 0
 sports = []
 types = ["Betreuung"]
 [contact]
