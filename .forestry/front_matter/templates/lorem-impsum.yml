@@ -12,7 +12,7 @@ fields:
   config:
     maxSize: 64
   label: Image
-- name: text
+- name: subject
   type: textarea
   default: ''
   config:
@@ -20,7 +20,12 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Text
+  label: Subject
+- name: target
+  type: text
+  config:
+    required: false
+  label: Target
 - name: region
   type: text
   config:
@@ -93,6 +98,5 @@ fields:
   label: Contact
 pages:
 - content/eliteschulen-des-sports.md
-- content/klubtalent-hauptamt-ready.md
 - content/lorem-impsum-2.md.md
 - content/lorem-impsum.md
