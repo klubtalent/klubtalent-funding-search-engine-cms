@@ -200,6 +200,8 @@ def generate_content(logger, results_path, funding):
         values["region"] = funding.region
     if len(funding.category) > 0:
         values["category"] = funding.category.title().replace("Und", "und").replace("Des", "des")
+    if len(funding.volume) > 0:
+        values["volume"] = funding.volume
     if len(funding.updated) > 0:
         values["updated"] = funding.updated
 
@@ -240,7 +242,10 @@ def generate_content(logger, results_path, funding):
 
     content += "\n[contact]"
     for key, value in values_contact.items():
-        content += f"\n{key} = \"{value}\""
+        if key is "volume":
+            content += f"\n{key} = {value}"
+        else:
+            content += f"\n{key} = \"{value}\""
     content += "\n+++"
 
     # Clean up
@@ -418,6 +423,8 @@ class LsbBerlinFunding:
         self.url = url
         self.phone = phone
         self.mail = mail
+
+        self.volume = 0
 
         self.updated = datetime.today().strftime('%d-%m-%Y')
         self.image = "/uploads/lsb_logo.png"
