@@ -116,5 +116,3 @@ fields:
       required: false
     label: Mail
   label: Contact
-pages:
-- content/eliteschulen-des-sports.md
