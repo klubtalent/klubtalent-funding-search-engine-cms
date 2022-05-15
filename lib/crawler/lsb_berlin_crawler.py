@@ -200,6 +200,8 @@ def generate_content(logger, results_path, funding):
         values["region"] = funding.region
     if len(funding.category) > 0:
         values["category"] = funding.category.title().replace("Und", "und").replace("Des", "des")
+    if len(funding.updated) > 0:
+        values["updated"] = funding.updated
 
     if len(funding.sports) > 0:
         for s in funding.sports:
@@ -235,8 +237,6 @@ def generate_content(logger, results_path, funding):
         if len(t) > 0:
             content += f"\"{t.replace('_', ' ')}\","
     content += "]"
-
-    content += f"\nupdated = \"{funding.updated}\""
 
     content += "\n[contact]"
     for key, value in values_contact.items():
