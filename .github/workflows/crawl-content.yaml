@@ -23,6 +23,7 @@ jobs:
           pip install flake8 pytest
           pip install pdfquery
           pip install six
+          pip install requests
       - name: Run main script
         id: run-main-script
         run: |
