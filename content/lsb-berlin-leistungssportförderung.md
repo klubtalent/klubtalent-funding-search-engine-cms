@@ -8,8 +8,8 @@ financing = "Bei dem Zuwendungsprogramm handelt es sich um eine Fehlbetragsfinan
 deadline = "Antragstermin ist der 15.12. des VorjahresBei Anträgen für Einzelmaßnahmen 4 Wochen vor Beginn der Maßnahme"
 region = "Berlin"
 category = "Leistungssport"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Leistungssport","Trainingslager","Lehrgänge","Wettkämpfe"]
 [contact]

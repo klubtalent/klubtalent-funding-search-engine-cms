@@ -9,8 +9,8 @@ financing = "Bis zu 5.500,- € für eine Gruppe von 20 Kindern"
 deadline = "Wird jährlich bekannt gegeben"
 region = "Berlin"
 category = "Bildung"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Betreuung"]
 [contact]

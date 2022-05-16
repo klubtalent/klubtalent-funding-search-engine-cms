@@ -7,8 +7,8 @@ hints = "Grundlage des Versicherungsschutzes ist die vollständige Meldung der M
 financing = "Der Landessportbund zahlt die Prämie auf Grundlage des Rahmenvertrages."
 region = "Berlin"
 category = "Rahmenvereinbarungen"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Versicherung"]
 [contact]

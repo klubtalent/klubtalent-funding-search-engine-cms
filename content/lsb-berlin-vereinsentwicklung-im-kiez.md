@@ -8,8 +8,8 @@ financing = "Fehlbedarfsfinanzierung bis max. 15.000 €Fördersumme des Senats 
 deadline = "Einreichen einer Interessensbekundung bis 15. Dezember des Vorjahrs möglichbei Auswahl der Bewerbung: Einreichen des Antrags ab 01. Januar des Förderjahrs möglichRücksendung der rechtsverbindlich unterschriebenen Einverständniserklärung innerhalb von 14"
 region = "Berlin"
 category = "Bildung"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Personalkosten"]
 [contact]

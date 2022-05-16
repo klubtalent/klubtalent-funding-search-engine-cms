@@ -9,8 +9,8 @@ financing = "FehlbedarfsfinanzierungBeschaffung erst mit dem Erhalt des Zuwendun
 deadline = "Die Antragsstellung muss mindestens 1 Woche vor Beginn der Maßnahme mit einer ausrei-"
 region = "Berlin"
 category = "Förderprogramme des Organisierten Sports"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Sportartikel","Sportbekleidung","Nachhaltigkeit"]
 [contact]

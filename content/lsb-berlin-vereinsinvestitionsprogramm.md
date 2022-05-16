@@ -9,8 +9,8 @@ financing = "Förderschlüssel: 40-40-20; Eigenleistung, 40% rückzahlbare Zuwen
 deadline = "Die Anmeldung des Vorhabens erfolgt erst über den Fachverband, dann den LSB, danach erfolgt"
 region = "Berlin"
 category = "Förderprogramme des Organisierten Sports"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Sportanlagen"]
 [contact]

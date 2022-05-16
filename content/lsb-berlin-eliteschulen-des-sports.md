@@ -8,8 +8,8 @@ equity = "Kosten entstehen bei Internatsunterbringung und Beteiligung an der Ess
 financing = "Gefördert durch die Senatsverwaltung für Bildung, Jugend und Familie"
 region = "Berlin"
 category = "Bildung"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["duale Förderung"]
 [contact]

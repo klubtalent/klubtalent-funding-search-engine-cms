@@ -8,8 +8,8 @@ equity = "keine"
 deadline = "keine"
 region = "Berlin"
 category = "Schule und Kita"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Veranstaltungen","Werbemaßnahmen"]
 [contact]

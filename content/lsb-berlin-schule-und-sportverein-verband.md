@@ -9,8 +9,8 @@ financing = "Die Sportjugend Berlin unterstützt die Sportvereine und -verbände
 deadline = "Anträge sind auf Vordruck mit rechtsgültiger Unterschrift des Vereins und der Schule bis zum 10.01."
 region = "Berlin"
 category = "Schule und Kita"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Kooperationen"]
 [contact]

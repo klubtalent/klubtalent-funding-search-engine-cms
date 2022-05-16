@@ -9,8 +9,8 @@ financing = "Festbetragsfinanzierung30,- €/60 Minuten (1 TE) (Übungsleiter/-i
 deadline = "Es gibt keine Antragsfrist(en)"
 region = "Berlin"
 category = "Schule und Kita"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Schulsport"]
 [contact]

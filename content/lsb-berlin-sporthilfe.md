@@ -9,8 +9,8 @@ financing = "Gefördert werden bis zu 50% der Gesamtausgaben. Die Mindestförder
 deadline = "Der Antrag muss vor Beginn der Maßnahme auf dem entsprechenden Antragsformular"
 region = "Berlin"
 category = "Leistungssport"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Sportmaterial","Trainingslager","Wettkämpfe"]
 [contact]

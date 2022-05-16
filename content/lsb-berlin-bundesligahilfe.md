@@ -9,8 +9,8 @@ financing = "Fehlbedarfsfinanzierung; Obergrenze: 25.000,- €Förderung zusamme
 deadline = "Formblatt: bis zum 31.01. des JahresAntrag: mindestens 4 Wochen vor Saisonbeginn (1. Wettkampftag)"
 region = "Berlin"
 category = "Leistungssport"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = []
 [contact]

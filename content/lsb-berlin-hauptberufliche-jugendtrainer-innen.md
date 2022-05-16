@@ -7,8 +7,8 @@ hints = "festangestellte Trainer/-innen mit mindestens 20 Wochenstunden,"
 financing = "Fehlbedarfsfinanzierung"
 region = "Berlin"
 category = "Leistungssport"
-updated = "15-05-2022"
-volume = 0
+updated = "16-05-2022"
+volume = "0"
 sports = []
 types = ["Kindersport","Jugendsport"]
 [contact]
