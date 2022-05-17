@@ -95,11 +95,14 @@ def parse_xml(workspace_path, file_name_xml):
             description = ""
 
             for text_line in text_box.findall("LTTextLineHorizontal"):
-                text = text_line.text.lstrip().rstrip()
+                text = text_line.text
                 if len(section) == 0:
-                    section = text
+                    section = text.lstrip().rstrip()
                 else:
-                    description += text.removeprefix("f ")
+                    description += text.removeprefix(" f ").removeprefix("}").removesuffix("- ") + " "
+
+            # Trim
+            description = description.lstrip().rstrip()
 
             if section.startswith("Was gefördert wird"):
                 sections["subject"] = description
@@ -183,7 +186,7 @@ def generate_content(logger, results_path, funding):
     if len(funding.image) > 0:
         values["image"] = funding.image
     if len(funding.name) > 0:
-        values["name"] = funding.name
+        values["name"] = funding.name.title().replace("Und", "und").replace("Des", "des")
     if len(funding.subject) > 0:
         values["subject"] = funding.subject
     if len(funding.target) > 0:
@@ -226,7 +229,7 @@ def generate_content(logger, results_path, funding):
     # Assemble content
     content = "+++"
     for key, value in values.items():
-        if key is "volume":
+        if key == "volume":
             content += f"\n{key} = {value}"
         else:
             content += f"\n{key} = \"{value}\""
