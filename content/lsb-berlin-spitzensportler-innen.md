@@ -6,8 +6,8 @@ target = "Der LSB fördert Spitzensportler/-innen durch den Abschluss von Berate
 hints = "Gefördert werden Spitzensportler/-innen, die für einen Berliner Verein das Startrecht haben."
 region = "Berlin"
 category = "Leistungssport"
-updated = "16-05-2022"
-volume = "0"
+updated = "17-05-2022"
+volume = 0
 sports = []
 types = []
 [contact]

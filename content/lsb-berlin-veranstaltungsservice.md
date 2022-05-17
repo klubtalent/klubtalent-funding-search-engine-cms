@@ -1,15 +1,15 @@
 +++
 image = "/uploads/lsb_logo.png"
 name = "Veranstaltungsservice"
-subject = "Präsentation der Vereinsangebote auf VeranstaltungenWerbemaßnahmen für den Verein"
+subject = "Präsentation der Vereinsangebote auf Veranstaltungen. Werbemaßnahmen für den Verein"
 target = "Mitgliedsorganisationen, Vereine und Verbände, Bezirkssportbünde"
 hints = "Planerische, organisatorische und personelle Unterstützung durch den Veranstaltungsservice"
 equity = "keine"
 deadline = "keine"
 region = "Berlin"
 category = "Schule und Kita"
-updated = "16-05-2022"
-volume = "0"
+updated = "17-05-2022"
+volume = 0
 sports = []
 types = ["Veranstaltungen","Werbemaßnahmen"]
 [contact]

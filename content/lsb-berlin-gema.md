@@ -5,12 +5,12 @@ subject = "GEMA-Beiträge für die Berliner Sportvereine"
 target = "Alle Berliner Sportvereine, die mittelbar Mitglied im LSB sind."
 region = "Berlin"
 category = "Rahmenvereinbarungen"
-updated = "16-05-2022"
-volume = "0"
+updated = "17-05-2022"
+volume = 0
 sports = []
 types = ["GEMA-Beiträge"]
 [contact]
-contact_person = "Cornelia Köhncke"
+contact_person = "} GEMA-Gesamtvertrag"
 phone = "+493030002135"
 mail = "c.koehncke@lsb-berlin.de"
 +++
