@@ -82,9 +82,9 @@ def parse_xml(workspace_path, file_name_xml):
 
         if len(text_boxes) == 0:
             if len(titles) > 1:
-                category = titles[1].lstrip().rstrip().replace("Und", "und").replace("Des", "des").replace("Durch", "durch")
+                category = titles[1].lstrip().rstrip()
         else:
-            name = titles[0].lstrip().rstrip().title().replace("Und", "und").replace("Des", "des").replace("Durch", "durch")
+            name = titles[0].lstrip().rstrip().title()
 
         sections = {}
 
@@ -92,39 +92,45 @@ def parse_xml(workspace_path, file_name_xml):
         for text_box in text_boxes:
 
             section = ""
-            description = ""
+            descriptions = []
 
             for text_line in text_box.findall("LTTextLineHorizontal"):
                 text = text_line.text
                 if len(section) == 0:
                     section = text.lstrip().rstrip()
                 else:
-                    description += text.removeprefix(" f ").removeprefix("}").removesuffix("- ") + " "
-
-            # Trim
-            description = description.lstrip().rstrip()
+                    descriptions.append(text.removeprefix(" f ").removeprefix("}").removesuffix("- ").lstrip().rstrip())
 
             if section.startswith("Was gefördert wird"):
-                sections["subject"] = description
+                sections["subject"] = ". ".join(descriptions).lstrip().rstrip()
             elif section.startswith("Wer wird gefördert"):
-                sections["target"] = description
+                sections["target"] = " ".join(descriptions).lstrip().rstrip()
             elif section.startswith("Sonstige Hinweise"):
-                sections["hints"] = description
+                sections["hints"] = " ".join(descriptions).lstrip().rstrip()
             elif section.startswith("Höhe der Eigenmittel"):
-                sections["equity"] = description
+                sections["equity"] = " ".join(descriptions).lstrip().rstrip()
             elif section.startswith("Finanzierungsart"):
-                sections["financing"] = description
+                sections["financing"] = " ".join(descriptions).lstrip().rstrip()
             elif section.startswith("Antragsfrist"):
-                sections["deadline"] = description
+                sections["deadline"] = " ".join(descriptions).lstrip().rstrip()
             elif section.startswith("Ansprechpartner"):
-                sections["contact_person"] = description
+                sections["contact_person"] = descriptions[0].lstrip().rstrip()
             else:
-                for contact_information in description.split("|"):
-                    if contact_information.lstrip().rstrip().startswith("E-Mail"):
-                        sections["mail"] = contact_information.replace("E-Mail:", "").replace(" ", "")
-                    if contact_information.lstrip().rstrip().startswith("Tel"):
-                        sections["phone"] = "+49" + contact_information.replace("Tel.:", "").replace(" ", "") \
-                            .replace("(", "").replace(")", "").replace("-", "").removeprefix("0")
+                if len(descriptions) == 1:
+                    for contact_information in descriptions[0].split("|"):
+                        if contact_information.lstrip().rstrip().startswith("E-Mail"):
+                            sections["mail"] = contact_information.replace("E-Mail:", "").replace(" ", "")
+                        if contact_information.lstrip().rstrip().startswith("Tel"):
+                            sections["phone"] = "+49" + contact_information.replace("Tel.:", "").replace(" ", "") \
+                                .replace("(", "").replace(")", "").replace("-", "").removeprefix("0")
+                else:
+                    sections["contact_person"] = descriptions[0].lstrip().rstrip()
+                    for contact_information in descriptions[1].split("|"):
+                        if contact_information.lstrip().rstrip().startswith("E-Mail"):
+                            sections["mail"] = contact_information.replace("E-Mail:", "").replace(" ", "")
+                        if contact_information.lstrip().rstrip().startswith("Tel"):
+                            sections["phone"] = "+49" + contact_information.replace("Tel.:", "").replace(" ", "") \
+                                .replace("(", "").replace(")", "").replace("-", "").removeprefix("0")
 
         if "subject" in sections:
             # Assemble funding
@@ -186,7 +192,7 @@ def generate_content(logger, results_path, funding):
     if len(funding.image) > 0:
         values["image"] = funding.image
     if len(funding.name) > 0:
-        values["name"] = funding.name.title()
+        values["name"] = funding.name
     if len(funding.subject) > 0:
         values["subject"] = funding.subject
     if len(funding.target) > 0:
@@ -202,7 +208,7 @@ def generate_content(logger, results_path, funding):
     if len(funding.region) > 0:
         values["region"] = funding.region
     if len(funding.category) > 0:
-        values["category"] = funding.category.title()
+        values["category"] = funding.category
     if len(funding.updated) > 0:
         values["updated"] = funding.updated
 
@@ -406,8 +412,8 @@ def extract_types(subject):
 class LsbBerlinFunding:
     def __init__(self, category, name, subject, target, hints, equity, financing, deadline,
                  contact_person, url, phone, mail):
-        self.category = category
-        self.name = name
+        self.category = category.title().replace("Und", "und").replace("Des", "des").replace("Durch", "durch")
+        self.name = name.title().replace("Und", "und").replace("Des", "des").replace("Durch", "durch")
         self.subject = subject
         self.target = target
         self.hints = hints
