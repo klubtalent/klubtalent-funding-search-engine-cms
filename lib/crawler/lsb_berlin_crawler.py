@@ -82,9 +82,9 @@ def parse_xml(workspace_path, file_name_xml):
 
         if len(text_boxes) == 0:
             if len(titles) > 1:
-                category = titles[1].lstrip().rstrip()
+                category = titles[1].lstrip().rstrip().replace("Und", "und").replace("Des", "des").replace("Durch", "durch")
         else:
-            name = titles[0].lstrip().rstrip().title()
+            name = titles[0].lstrip().rstrip().title().replace("Und", "und").replace("Des", "des").replace("Durch", "durch")
 
         sections = {}
 
@@ -186,7 +186,7 @@ def generate_content(logger, results_path, funding):
     if len(funding.image) > 0:
         values["image"] = funding.image
     if len(funding.name) > 0:
-        values["name"] = funding.name.title().replace("Und", "und").replace("Des", "des")
+        values["name"] = funding.name.title()
     if len(funding.subject) > 0:
         values["subject"] = funding.subject
     if len(funding.target) > 0:
@@ -202,7 +202,7 @@ def generate_content(logger, results_path, funding):
     if len(funding.region) > 0:
         values["region"] = funding.region
     if len(funding.category) > 0:
-        values["category"] = funding.category.title().replace("Und", "und").replace("Des", "des")
+        values["category"] = funding.category.title()
     if len(funding.updated) > 0:
         values["updated"] = funding.updated
 
