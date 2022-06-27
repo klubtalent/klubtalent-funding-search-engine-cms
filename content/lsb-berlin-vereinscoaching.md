@@ -1,20 +1,21 @@
 +++
-image = "/uploads/lsb_logo.png"
-name = "Vereinscoaching"
-subject = "Zusammenarbeit mit professionellen systemischen Coaches, um sich für die Herausforderun"
-target = "Verbands- und Vereinsvorstände von Sportverbänden und -vereinen"
-hints = "Förderungswürdig anerkannte Sportorganisation Zeitgemäße Vereinsbeiträge Antrags- und Abrechnungsformular Vordruck für Sachbericht Es werden keine Abteilungsvorstände gecoacht"
+category = "Schule und Kita"
+deadline = "keine"
 equity = "Es wird ein Zuschuss in Höhe von 70% gezahlt. Der Verein trägt 30%."
 financing = "Es handelt sich bei der Förderung um eine anteilige Fehlbedarfsfinanzierung einer Zuwen"
-deadline = "keine"
+hints = "Förderungswürdig anerkannte Sportorganisation Zeitgemäße Vereinsbeiträge Antrags- und Abrechnungsformular Vordruck für Sachbericht Es werden keine Abteilungsvorstände gecoacht"
+image = "/uploads/lsb_logo.png"
+name = "Vereinscoaching Deluxe"
 region = "Berlin"
-category = "Schule und Kita"
-updated = "27-06-2022"
-volume = 0
 sports = []
+subject = "Zusammenarbeit mit professionellen systemischen Coaches, um sich für die Herausforderun"
+target = "Verbands- und Vereinsvorstände von Sportverbänden und -vereinen"
 types = ["Coaching"]
+updated = 2022-06-27T00:00:00Z
+volume = 0
 [contact]
 contact_person = "Zahlenmäßiger Verwendungsnachweis"
-phone = "+493030002–100"
 mail = "m.heukaeufer@lsb-berlin.de"
+phone = "+493030002–100"
+
 +++
